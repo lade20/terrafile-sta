@@ -11,7 +11,7 @@ terraform {
     }
 }
 
-resource "aws_instance" "second_task" {
+resource "aws_instance" "third_task" {
   ami        = "ami-05626efdd7bf03b47"
   instance_type = "t2.micro"
   key_name = "devop22"
